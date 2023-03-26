@@ -1,0 +1,26 @@
+.ProjectCard{
+    /* position: relative; */
+    /* border: 2px solid green; */
+    height: 37vh;
+    width: 25vw;
+    border-radius: 30px;
+    /* display: flex; */
+    flex-direction: column;
+    overflow: hidden;
+    margin-bottom: 90px;
+}
+
+.ProjectImageTag{
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    height: 43vh;
+    width: 30vw;
+}
+
+.ProjectName{
+    position:absolute;
+    bottom: 20px;
+    left: 190px;
+    color: white;
+}

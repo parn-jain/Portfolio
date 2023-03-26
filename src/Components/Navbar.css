@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    /* z-index:99999999999999999; */
+    position: relative;
+    background-color: #1f232e;
+    /* position: sticky; */
+    /* top: 0; */
+    /* position: -webkit-sticky; */
+    
+}
+
+.containt{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+}
+
+ul li a{
+    color: white;
+    all:unset;
+    cursor: pointer;
+}

@@ -1,0 +1,105 @@
+.HomeContaint{
+    color: white;
+    /* border: 2px blue solid; */
+}
+
+.HomeContainer{
+    line-height: 35px;
+    align-items: center;
+    display: flex;
+    width: 80vw;
+    /* border: 2px solid red; */
+}
+
+.HomeImage img{
+    /* border: 2px solid green; */
+    height: 500px;
+    /* width: 100px; */
+}
+
+.MyName{
+    /* border: 2px solid red; */
+    font-size: 50px;
+    padding: 0;
+    margin:0;
+}
+
+
+.fa-brands{
+    color:#00eeff;
+    /* size: 200px; */
+    font-size: 500px;
+    margin-bottom: 50px;
+}
+
+.editedFa{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 15vw;
+}
+
+.editFaElements{
+    height: 50px;
+}
+
+.CVbutton{
+    justify-content: center;
+    background-color: #00eeff;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 10px 40px;
+    border: 0px;
+    /* box-shadow: 10px 10px 10px; */
+    /* position: relative; */
+    /* left: 25px; */
+    cursor: pointer;
+    box-shadow: 0 0px 20px rgba(0, 238, 255, 0.4);
+    /* z-index: 0; */
+}
+
+.MyName{
+    margin-bottom: 20px;
+}
+
+/* .firstText{
+    font-size: 30px;
+    font-weight: bolder;
+} */
+
+/* .secondText{
+    font-size: 30px;
+    font-weight: bolder;
+} */
+
+.HomeContaint .text{
+    color: #00eeff;
+    position: relative;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.HomeContaint .firstText{
+    color: white;
+}
+
+.secondText:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1f232e;
+    border-left: 2px solid white;
+    animation: animate 4s steps(15) infinite;
+}
+@keyframes animate {
+    40%, 60%{
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+    }
+    
+}

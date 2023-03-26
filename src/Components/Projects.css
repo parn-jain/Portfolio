@@ -1,0 +1,17 @@
+.ProjectContainer{
+    /* height: 100vh; */
+    /* border: 2px solid red; */
+    width: 90vw;
+}
+.MyProject{
+    display: flex;
+    color: aqua;
+    justify-content: center; 
+}
+.ProjectList{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* margin-bottom: 30px; */
+
+}
