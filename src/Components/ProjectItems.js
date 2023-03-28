@@ -7,6 +7,10 @@ export default function ProjectItems(props) {
         <div className="ProjectCard">
         <img className = "ProjectImageTag" src={props.Pimage} alt="My Image"/>
         {/* <p className='ProjectName'>Portfolio</p> */}
+        <div className="ProjDesc">
+          <h1>Title</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, ipsam.</p>
+        </div>
         </div>
     </>
   )

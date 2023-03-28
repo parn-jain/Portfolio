@@ -15,6 +15,8 @@
   /* position: sticky; */
   /* top: 0px; */
   /* position: absolute; */
+  /* position: relative; */
+  z-index: 1;
   position: sticky;
   /* position: fixed; */
   top: 0;

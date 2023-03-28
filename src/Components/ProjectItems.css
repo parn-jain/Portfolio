@@ -1,26 +1,61 @@
 .ProjectCard{
-    /* position: relative; */
+    position: relative;
+    /* position: absolute; */
     /* border: 2px solid green; */
-    height: 37vh;
+    height: 35vh;
     width: 25vw;
     border-radius: 30px;
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     overflow: hidden;
     margin-bottom: 90px;
 }
 
-.ProjectImageTag{
+.ProjectCard img{
     justify-content: center;
     align-items: center;
     object-fit: contain;
     height: 43vh;
     width: 30vw;
+    z-index: 0;
+    transition: .5s ease;
 }
 
-.ProjectName{
+.ProjectCard:hover img{
+    transform: scale(1.1);
+
+}
+
+/* .ProjectName{
     position:absolute;
     bottom: 20px;
-    left: 190px;
+    left: 160px;
     color: white;
+} */
+
+.ProjectCard .ProjDesc{
+    /* position: relative; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    bottom: 0;
+    left: 0;
+    /* z-index: 1; */
+    color: white;
+    background: linear-gradient(rgba(0,0,0,.1), #00eeff);
+    text-align: center;
+    transform: translateY(100%);
+    transition: 0.5s ease;
+}
+
+
+.ProjDesc p{
+    padding: 12px;
+} 
+
+.ProjectCard:hover .ProjDesc{
+    transform: translateY(0%);
 }
