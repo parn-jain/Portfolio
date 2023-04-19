@@ -5,6 +5,8 @@ import './Projects.css'
 export default function Projects() {
   return (
     <>
+    <div id="projects">
+
         <div className="ProjectContainer">
             <h1 className='MyProject'>My Projects</h1>
             <div className="ProjectList">
@@ -16,6 +18,7 @@ export default function Projects() {
           <ProjectItems Pimage = {Pimg}/>
         </div>
         </div>
+    </div>
   
     </>
   )

@@ -1,6 +1,7 @@
 .ProjectContainer{
     /* height: 100vh; */
-    /* border: 2px solid red; */
+    margin-top: 65px;
+    /* border: 2px solid green; */
     width: 90vw;
 }
 .MyProject{

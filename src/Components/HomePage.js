@@ -28,6 +28,8 @@ export default function HomePage() {
     
     return (
         <>
+        <div id="homeP">
+
             <div className="HomeContainer">
                 <div className="HomeContaint">
                     {/* {ChangeText()} */}
@@ -52,6 +54,7 @@ export default function HomePage() {
                 </div>
             </div>
 
+        </div>
 
         </>
     )

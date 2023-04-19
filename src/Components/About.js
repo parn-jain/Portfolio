@@ -4,6 +4,7 @@ import './About.css'
 export default function About() {
   return (
     <>
+    <div id = "about">
         <div className="AboutContainer">
             <div className="MyAboutImageContainer">
                 <img className = "MyAboutImage" src={img3} alt="" />
@@ -15,6 +16,7 @@ export default function About() {
                 <button className='AboutButton'>READ MORE</button>
             </div>
         </div>
+    </div>
     </>
   )
 }
