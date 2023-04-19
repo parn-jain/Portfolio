@@ -4,7 +4,7 @@ export default function Navbar() {
   const scrollToSection = (event, sectionId) => {
     event.preventDefault();
     const section = document.getElementById(sectionId);
-    window.scrollTo({ top: section.offsetTop, behavior: 'smooth' });
+    window.scrollTo({ top: section.offsetTop-50, behavior: 'smooth' });
   };
   return (
     <>
